@@ -12,7 +12,7 @@ const BookCreate = ({onCreate}) => {
   return (
     // <div>BookCreate</div>
     <form onSubmit={handleSubmit}>
-        <label>Title Title Title title</label>
+        <label>Title Title Title</label>
         <input value={title} onChange={handlaChange}/>
         <button>Crete!</button>
     </form>
