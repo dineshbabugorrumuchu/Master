@@ -20,7 +20,7 @@ const CounterPage = ({initialCount}) => {
   return (
       <React.Fragment>
           <div>CounterPage is {count}</div>
-          <Button onClick={handleClick}>increment</Button>
+          <Button onClick={handleClick}>increment increement</Button>
       </React.Fragment>
   )
 }
